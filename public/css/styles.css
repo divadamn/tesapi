@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 50px;
+}
+
+.container {
+  padding: 50px;
+  border: 2px solid black;
+}
+
+.product-item {
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 15px;
+  text-align: left;
+  overflow: hidden;
+}
+/* web/css/styles.css */
+img {
+    width: 200px; /* Atur tinggi maksimum gambar menjadi 100px */
+    height: 200px;
+  }
+/* web/css/styles.css */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    gap: 20px; /* Spasi antara produk */
+  }
+  
